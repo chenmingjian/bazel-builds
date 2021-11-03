@@ -1,6 +1,6 @@
 
 # docker run -it -v $(pwd):/opt/app-root/src -u 0 submod/bazel-build:latest /bin/bash
-BAZEL_VERSION=3.4.1
+BAZEL_VERSION=4.2.0
 
 gcc -v
 python -V
